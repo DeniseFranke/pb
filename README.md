@@ -24,19 +24,19 @@ The Ruby demo here uses the [CFMX_COMPAT ruby implementation](https://github.com
 
 ## Usage
 
-    $ vi xxx.rb #uncomment the section for UU, HEX, or BASE64 - defaults to UU.
-    $ ./demo.rb
+    $ vi decrypt.rb #uncomment the section for UU, HEX, or BASE64 - defaults to UU.
+    $ ./demo.rb or ./demo.rb > output.txt
 
 ## Results of uuu.txt decrypted
-
+to_decrypt.txt:
 328=Z]!/-3ZGA3>FL(:A0*9%^-@``
-decrypted uu: plain text example
-
 .?8YU]`Z(&XKK6*>B/,,`
-decrypted uu: Denise Franke
-
 %;8YHZ7<`
-decrypted uu: Test
+
+to_encrypt.txt:
+plain text example
+Denise Franke
+Test
 
 
 ## Contributing
